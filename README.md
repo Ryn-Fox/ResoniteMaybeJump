@@ -1,4 +1,5 @@
-# NoLeftJump
+Maybe Jump
+==========
 
 A [NeosModLoader](https://github.com/zkxs/NeosModLoader) mod for [Neos VR](https://neos.com/) that allows you to configure on which sides the thumbstick will be  used as jump.
 

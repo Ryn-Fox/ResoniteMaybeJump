@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NoLeftJump</RootNamespace>
-    <AssemblyName>NoLeftJump</AssemblyName>
+    <RootNamespace>MaybeJump</RootNamespace>
+    <AssemblyName>MaybeJump</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -32,19 +32,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="0Harmony, Version=2.1.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Lib.Harmony.2.1.1\lib\net45\0Harmony.dll</HintPath>
+    <Reference Include="0Harmony">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\NeosVR\0Harmony.dll</HintPath>
     </Reference>
     <Reference Include="FrooxEngine">
       <HintPath>C:\Program Files (x86)\Steam\steamapps\common\NeosVR\Neos_Data\Managed\FrooxEngine.dll</HintPath>
     </Reference>
-    <Reference Include="NeosModLoader, Version=2021.12.2.1098, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\NeosVR\Libraries\NeosModLoader.dll</HintPath>
+    <Reference Include="NeosModLoader">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\NeosVR\Libraries\NeosModLoader.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="NoLeftJump.cs" />
+    <Compile Include="MaybeJump.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

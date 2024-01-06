@@ -1,10 +1,10 @@
 ﻿using HarmonyLib;
-using NeosModLoader;
+using ResoniteModLoader;
 using FrooxEngine;
 
 namespace MaybeJump
 {
-    public class MaybeJump : NeosMod
+    public class MaybeJump : ResoniteMod
     {
         public static ModConfiguration Config;
 
@@ -15,9 +15,9 @@ namespace MaybeJump
         private static ModConfigurationKey<bool> EnableRight = new ModConfigurationKey<bool>("EnableRight", "Enable right jump.", () => true);
 
         public override string Author => "Banane9";
-        public override string Link => "https://github.com/Banane9/NeosMaybeJump";
+        public override string Link => "https://github.com/Banane9/ResoniteMaybeJump";
         public override string Name => "MaybeJump";
-        public override string Version => "1.1.0";
+        public override string Version => "1.2.0";
 
         public override void OnEngineInit()
         {
